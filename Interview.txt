@@ -1,0 +1,39 @@
+Atos
+
+Technical interview:
+What do you mean by abstract class?
+What do you mean by Hash Map and Hash Table?
+Can an unreachable object become reachable again?
+State two differences between swing and AWT?
+What is LAN, WAN?
+How does a handoff take place in a mobile communications system?
+What is backdrop?
+Questions based on your project.
+Can the IP address be same for 2 PC’s?
+Basics of OOP Language
+What is normalization?
+Difference between DELETE and TRUNCATE?
+Tell us about some Dot operator queries?
+What is Database Management System?
+What do you mean by exception handling in Java?
+What is polymorphism in Java?
+What is the difference between C and Java?
+Can the IP address same for 2 pcs?
+What do you mean by LAN, WAN?
+Why is String immutable?
+Difference between current previous versions of Java?
+Write a program JDBCcode forfetching student database with SQL.
+How would you dynamically allocate memory to an array?
+How are multiple inheritances done in Java?
+What is Oracle? What is SQL Server?
+What is OOP Language?
+What is normalization?
+What are dot operator queries?
+Suppose you have a class C address 192.168.0.x 192.168.0.1 is for router. How many other systems can you connect to this network?
+
+HR Interview:
+Introduce Yourself?
+State two of your strengths and weaknesses?
+What is the difference between confidence and over confidence?
+How could you have improved your academic process?
+Where do you see yourself in 5 years?
