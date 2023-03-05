@@ -18,7 +18,7 @@ class Graph:
 	# function to add an edge to graph
 	def addEdge(self, u, v):
 		self.graph[u].append(v)
-
+		
 	# Function to print a BFS of graph
 	def BFS(self, s):
 
@@ -65,5 +65,3 @@ g.addEdge(3, 3)
 print("Following is Breadth First Traversal"
 	" (starting from vertex 2)")
 g.BFS(2)
-
-# This code is contributed by Neelam Yadav
