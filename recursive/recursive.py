@@ -49,20 +49,20 @@
 # print("Destination:",destination)
 
 
-# def TowerOfHanoi(n,source,dest,middle):
-#     if(n<1):
-#         print("NOT POSSIBLE")
-#         return
-#     if (n==1):
-#         print("MOVE DISK {} FROM {} TO {}".format(n,source,dest))
-#         return
+def TowerOfHanoi(n,source,middle,dest):
+    if(n<1):
+        print("NOT POSSIBLE")
+        return
+    if (n==1):
+        print("MOVE DISK {} FROM {} TO {}".format(n,source,dest))
+        return
     
-#     TowerOfHanoi(n-1,source,middle,dest)
-#     print("MOVE DISK {} FROM {} TO {}".format(n,source,dest))
-#     TowerOfHanoi(n-1,middle,dest,source)
+    TowerOfHanoi(n-1,source,middle=dest,dest=middle)
+    print("MOVE DIjSK {} FROM {} TO {}".format(n,source,dest))
+    TowerOfHanoi(n-1,source=middle,middle=source,dest=dest)
 
-# n=int(input("ENTER THE NUMBER OF DISK"))
-# TowerOfHanoi(n,"A","C","B")
+n=int(input("ENTER THE NUMBER OF DISK"))
+TowerOfHanoi(n,"A","B","C")
 
 
 
